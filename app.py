@@ -6,8 +6,8 @@ app.secret_key = 'qwerty123'
 app.debug = True
 
 @app.route('/')
-def home():
-    return render_template('home.html')
+def index():
+    return render_template('index.html')
 
 @app.route('/about')
 def about():
